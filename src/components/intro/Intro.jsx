@@ -10,7 +10,7 @@ export default function Intro() {
             showCursor: false,
             backDelay: 1500,
             backSpeed: 60,
-            showCursor: true,
+            // showCursor: true,
             strings: ["Developer", "Designer", "Content creator"]
         });
     }, [])
