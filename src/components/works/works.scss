@@ -1,7 +1,10 @@
 @import "../../global.scss";
 
 .works {
-
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/03/01/backboard-1866968_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
