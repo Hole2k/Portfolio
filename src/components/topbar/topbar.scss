@@ -21,6 +21,8 @@
         .left {
             display: flex;
             align-items: center;
+            text-decoration: none;
+
 
             .logo {
                 font-size: 40px;
@@ -34,6 +36,10 @@
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
+
+
+
+
 
                 @include mobile {
                     display: none;
@@ -49,7 +55,37 @@
                         font-weight: 500;
 
                     }
+
+
+
                 }
+
+
+            }
+
+            .social {
+                display: flex;
+                margin-left: 30px;
+
+                .linkedIn {
+                    color: #0077b5;
+                    margin-right: 10px;
+                }
+
+                .gitHub {
+                    color: #706b6b;
+                    margin-right: 10px;
+                }
+
+                .instagram {
+                    color: #f77737;
+                    margin-right: 10px;
+                }
+
+            }
+
+            a {
+                text-decoration: none;
             }
         }
 
@@ -75,9 +111,17 @@
 
     }
 
+
     &.active {
+
         background-color: $mainColor;
         color: white;
+
+        a {
+            color: white;
+
+        }
+
 
         .right {
 

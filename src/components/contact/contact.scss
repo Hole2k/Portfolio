@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact {
-    background-image: url("https://thumbs.dreamstime.com/b/mail-background-12578668.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062_960_720.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +63,7 @@
                 height: 400px;
                 font-size: 14px;
                 margin-top: 20px;
+
 
                 @include mobile {
                     width: 200px;

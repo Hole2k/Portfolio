@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import { Person, Mail, SportsBasketballOutlined } from "@material-ui/icons"
+import { Person, Mail, SportsBasketballOutlined, LinkedIn, GitHub, Instagram } from "@material-ui/icons"
 
 export default function topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -13,7 +13,13 @@ export default function topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon" />
-                        <span>krystianholubowicz@gmail.com</span>
+                        <span><a href="mailto:krystianholubowicz@gmail.com">krystianholubowicz@gmail.com</a></span>
+                    </div>
+                    <div className="social">
+
+                        <a href="https://pl.linkedin.com/in/krystian-ho%C5%82ubowicz-493bbb199" target="_blank">  < LinkedIn className="linkedIn" /></a>
+                        <a href="https://github.com/Hole2k" target="_blank"> < GitHub className="gitHub" /></a>
+                        <a href="https://www.instagram.com/hole2k/" target="_blank"> < Instagram className="instagram" /></a>
                     </div>
                 </div>
                 <div className="right">
