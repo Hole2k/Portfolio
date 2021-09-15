@@ -5,6 +5,9 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
                 <li >
+                    <a onClick={() => setMenuOpen(false)} href="/">Main Page</a>
+                </li>
+                <li >
                     <a onClick={() => setMenuOpen(false)} href="#intro">Home</a>
                 </li>
 

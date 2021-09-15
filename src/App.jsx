@@ -1,27 +1,22 @@
-import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
-import Testimonials from "./components/testimonials/Testimonials";
-import Contact from "./components/contact/Contact";
-import Menu from "./components/menu/Menu";
 import "./app.scss";
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Main from "./pages/main/Main";
+import Html from "./pages/html/Html";
+import Menu from "./components/menu/Menu";
 import { useState } from "react";
-
+import Topbar from "./components/topbar/Topbar";
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <div className="sections">
-        <Intro />
-        <Portfolio />
-        <Works />
-        <Testimonials />
-        <Contact />
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/Html" component={Html} />
+        </Switch>
+      </Router>
 
     </div>
   );
