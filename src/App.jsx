@@ -6,6 +6,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Testimonials />
         <Contact />
       </div>
+
     </div>
   );
 }

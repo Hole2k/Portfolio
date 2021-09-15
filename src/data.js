@@ -42,45 +42,45 @@ export const featuredPortfolio = [
 ];
 
 
-export const webPortfolio = [
+export const knowledgePortfolio = [
     {
         id: 1,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2020/08/25/18/29/workplace-5517762_960_720.jpg"
+        title: "HTML",
+        img :"https://nsdarabia.com/customers_demos/new_Nouveltech/images/html.jpg",
 
     },
 
     {
         id: 2,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2021/03/02/13/04/laptop-6062423_960_720.jpg"
+        title: "CSS/SCSS",
+        img :"https://kariselovuo.pro/ksprov1/wp-content/uploads/2018/02/css-logo.png"
 
     },
 
     {
         id: 3,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2021/02/06/07/02/laptop-5987093_960_720.jpg"
+        title: "JavaScript",
+        img :"https://boringowl.io/wp-content/uploads/2020/03/javascript-skryptowy-je%CC%A8zyk-programowania-300x300.jpg"
 
     },
 
     {
         id: 4,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2021/03/18/19/56/keyboard-6105750_960_720.jpg"
+        title: "ReactJS",
+        img :"https://tryolabs.com/blog/images/blog/social/react.736da783.png"
 
     },
 
     {
         id: 5,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2020/12/18/16/56/laptop-5842509_960_720.jpg"
+        title: "PHP",
+        img :"https://pbs.twimg.com/profile_images/815698345716912128/hwUcGZ41_400x400.jpg"
 
     },
     {
         id: 6,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2021/06/28/10/15/coffee-6371149_960_720.jpg"
+        title: "SQL",
+        img :"https://cloudblogs.microsoft.com/uploads/prod/sites/32/2020/05/SQL.png"
 
     }
 ];
