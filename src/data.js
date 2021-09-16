@@ -47,40 +47,44 @@ export const knowledgePortfolio = [
         id: 1,
         title: "HTML",
         img :"https://nsdarabia.com/customers_demos/new_Nouveltech/images/html.jpg",
+        url:"/Html"
 
     },
 
     {
         id: 2,
         title: "CSS/SCSS",
-        img :"https://kariselovuo.pro/ksprov1/wp-content/uploads/2018/02/css-logo.png"
+        img :"https://kariselovuo.pro/ksprov1/wp-content/uploads/2018/02/css-logo.png",
+        url: "/Css"
 
     },
 
     {
         id: 3,
         title: "JavaScript",
-        img :"https://boringowl.io/wp-content/uploads/2020/03/javascript-skryptowy-je%CC%A8zyk-programowania-300x300.jpg"
-
+        img :"https://boringowl.io/wp-content/uploads/2020/03/javascript-skryptowy-je%CC%A8zyk-programowania-300x300.jpg",
+        url:"/Js"
     },
 
     {
         id: 4,
         title: "ReactJS",
-        img :"https://tryolabs.com/blog/images/blog/social/react.736da783.png"
-
+        img :"https://tryolabs.com/blog/images/blog/social/react.736da783.png",
+        url:"/ReactJS"
     },
 
     {
         id: 5,
         title: "PHP",
-        img :"https://pbs.twimg.com/profile_images/815698345716912128/hwUcGZ41_400x400.jpg"
+        img :"https://pbs.twimg.com/profile_images/815698345716912128/hwUcGZ41_400x400.jpg",
+        url: "/Php"
 
     },
     {
         id: 6,
         title: "SQL",
-        img :"https://cloudblogs.microsoft.com/uploads/prod/sites/32/2020/05/SQL.png"
+        img :"https://cloudblogs.microsoft.com/uploads/prod/sites/32/2020/05/SQL.png",
+        url:"/Sql"
 
     }
 ];

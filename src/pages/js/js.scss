@@ -1,0 +1,36 @@
+.js-sections {
+    width: 100%;
+    height: calc(100vh - 70px);
+
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for firefox
+
+    &::-webkit-scrollbar {
+        display: none; //reszta przeglądarek
+    }
+
+    .item {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-gap: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+
+        .left {
+
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .lesson1 {}
+        }
+
+
+    }
+
+
+}

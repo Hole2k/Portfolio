@@ -1,0 +1,20 @@
+@import "../../global.scss";
+
+
+.error {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+    color: $mainColor;
+
+
+    h2:hover {
+        font-size: 50px;
+        transition: all 2s;
+    }
+
+    a {
+        text-decoration: none;
+        color: #CF5300;
+    }
+}
