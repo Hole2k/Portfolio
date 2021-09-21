@@ -24,88 +24,140 @@ export const dataJs = [
             <br />
             <p>Jeżeli tekst jest wieloliniowy, wtedy możemy zaznaczyć taki tekst i przycisnąć <mark>CTRL+?(Powstanie komentarz jednoliniowy przy każdej linii)</mark> lub <mark>CTRL+SHIFT+?(komentarz wieloliniowy)</mark> . W ten sposób cały zaznaczony tekst automatycznie zostanie zakomentowany.</p>
             <br />
+
+            <h1>Zmienne</h1>
+            <br />
+            <p>! Na starcie należy zaznaczyć że nie powinno się stosować Var, jednak ten typ zostanie opisany.
+                <p>Zmienne definiujemy rozpoczynająć od var/let/const</p>
+                <br />
+                <br />Var:
+                <br />
+                <mark>var nazwa_zmiennej = </mark>'zwykły tekst';
+                <br />
+                W JavaScript nie ma znaczenia czy użyjemy cudzysłowu pojedynczego czy podwójnego. Jednak lepiej używać pojedynczego. Dlaczego ? Dlatego, że dzięki takiemu zabiegowi będzię można w środku użyć podwójnego np:<br />
+                var zmienna = <mark> a href="#" a </mark>
+            </p >
         </div>,
         img: "./imgJS/lesson1.JPG"
     },
 
     {
         id: "2",
-        title: "Zmienne",
-        desc: <div><p>! Na starcie należy zaznaczyć że nie powinno się stosować Var, jednak ten typ zostanie opisany.
-            <p>Zmienne definiujemy rozpoczynająć od var/let/const</p>
-            <br />
-            <br />Var:
-            <br />
-            <mark>var nazwa_zmiennej = </mark>'zwykły tekst';
-            <br />
-            W JavaScript nie ma znaczenia czy użyjemy cudzysłowu pojedynczego czy podwójnego. Jednak lepiej używać pojedynczego. Dlaczego ? Dlatego, że dzięki takiemu zabiegowi będzię można w środku użyć podwójnego np:<br />
-            var zmienna = <mark> a href="#" a </mark>
-        </p >
-        </div >,
-        img: ""
-    },
-    {
-        id: "3",
         title: "Operatory cz.1",
         desc: <div><h2>Operatory przypisania:</h2>
             <br />
-            <p>+ dodawanie </p>
+            <p><mark>+</mark> dodawanie </p>
             <br />
-            <p>- odejmowanie</p>
+            <p><mark>-</mark> odejmowanie</p>
             <br />
-            <p>* mnożenie</p>
+            <p><mark>*</mark> mnożenie</p>
             <br />
-            <p>/ dzielenie</p>
+            <p><mark>/</mark> dzielenie</p>
             <br />
-            <p>% modulo(reszta z dzielenia)</p>
+            <p><mark>%</mark> modulo(reszta z dzielenia)</p>
             <br />
             <h2>Inkrementacja - zwiększenie wartości argumentu</h2>
             <br />
-            <p>liczba ++</p>
+            <p>liczba <mark>++</mark></p>
             <br />
             <h2>Dekrementacja - zmniejszenie wartości argumentu</h2>
             <br />
-            <p>liczba --</p>
+            <p>liczba <mark>--</mark></p>
             <br />
             <h2>Przypisanie wartości do zmiennej</h2>
             <br />
-            <p>liczba = liczba + liczba1 </p>
+            <p>liczba = liczba <mark>+</mark> liczba1 </p>
             <br />
             <p>Jest równoważne z zapisem </p>
             <br />
-            <p>liczba += liczba1</p>
+            <p>liczba <mark>+=</mark> liczba1</p>
         </div>,
         img: "./imgJS/lesson3.jpg"
     },
 
     {
-        id: "4",
+        id: "3",
         title: "Operatory cz.2",
         desc: <div>
             <h2>Operatory porównania</h2>
             <br />
-            <p>liczba1 = liczba2 -> przypisanie wartości liczba2 do liczba1</p>
+            <p>liczba1 <mark>=</mark> liczba2 -> przypisanie wartości liczba2 do liczba1</p>
             <br />
-            <p>liczba1 != liczba2 -> True jeżeli zmienne są różne od siebie</p>
+            <p>liczba1 <mark>!=</mark> liczba2 -> True jeżeli zmienne są różne od siebie</p>
             <br />
-            <p>liczba1 == liczba2 ->  True, jeżeli liczba1 jest równa liczbie2</p>
+            <p>liczba1 <mark>==</mark> liczba2 ->  True, jeżeli liczba1 jest równa liczbie2</p>
             <br />
-            <p>liczba1 !== liczba2 -> True jeżeli zmienne są rózne od siebie lub są innego typu</p>
+            <p>liczba1 <mark>!==</mark> liczba2 -> True jeżeli zmienne są rózne od siebie lub są innego typu</p>
             <br />
-            <p>liczba1 === liczba2 -> True jeżeli liczby oraz typy są równe</p>
+            <p>liczba1 <mark>===</mark> liczba2 -> True jeżeli liczby oraz typy są równe</p>
             <br />
-            <p>liczba1  liczba2 -> True jeśli liczba1 jest mniejsza niż liczba2</p>
+            <p>liczba1 <mark></mark>  liczba2 -> True jeśli liczba1 jest mniejsza niż liczba2</p>
             <br />
-            <p>liczba1 > liczba2 -> True jeśli liczba1 jest większa niż liczba2</p>
+            <p>liczba1 <mark>></mark> liczba2 -> True jeśli liczba1 jest większa niż liczba2</p>
             <br />
-            <p>liczba1 ⩾ liczba2  -> True jeśli liczba1 jest mniejsza-równa niż liczba2</p>
+            <p>liczba1 <mark>⩾</mark> liczba2  -> True jeśli liczba1 jest mniejsza-równa niż liczba2</p>
             <br />
-            <p>liczba1 ⩽ liczba2  -> True jeśli liczba1 jest większa-równa niż liczba2</p>
+            <p>liczba1 <mark>⩽</mark> liczba2  -> True jeśli liczba1 jest większa-równa niż liczba2</p>
             <br />
-
+            <p>((liczba1 > liczba2) <mark>||</mark> typeof(liczba1) == 'number') -> liczba1 musi być większa niż liczba2 <mark>LUB</mark> typ liczba1 musi być typem number</p>
+            <br />
+            <p>((liczba1 > liczba2) <mark>&&</mark> (liczba1 == 80)) -> liczba1 musi być większa niż liczba2 <mark>I/ORAZ</mark> typ liczba1 musi równac się 80
+            </p>
+            <br />
+            <p>(<mark>!</mark>(liczba1 == 80)) -> liczba1 nie <mark>równa</mark> się 80</p>
+            <br />
+            <p>(liczba == 80 ) <mark>^</mark> (liczba2 == 55) -> <mark>Tylko jeden</mark> z warunków może mieć false lub true. Nie może być 2 takich samych wartości
+            </p>
+            <br />
 
         </div>,
         img: "./imgJS/lesson4.jpg"
+    },
+    {
+        id: "4",
+        title: "Instrukcje warunkowe",
+        desc:
+            <div>
+                <h1>if</h1>
+                <h2>Instrukcja <mark>else if</mark> pozwala na spełnienie jednego warunku. <br /> </h2>
+                <br />
+                <p>if(warunek)<br />instrukcja<br />else if/if (warunek)<br />instrukcja<br />else<br />warunek</p>
+                <br />
+                <h2>Skrócony zapis:</h2>
+                <p>warunek ? kod dla true : kod dla false;</p>
+                <br />
+                <p><mark>INACZEJ</mark></p>
+                <br />
+                <p>warunek ? kod dla if : kod dla else;</p>
+                <br />
+                <br />
+                <h3>!Jeżeli instrukcja warunkowa zawiera TYLKO <mark>if'y</mark>, wtedy zostaną wykonane wszystkie instrukcje, w których warunek zostanie spełniony.</h3>
+                <h3>!W skróconym zapisie można użyć jedynie if oraz else . Nie możemy rozbudować konstrukcji o else if'y </h3>
+                <br />
+                <h1>switch</h1>
+                <br />
+                <p>switch(zmienna)</p>
+                <br />
+                <p>case 10:</p>
+                <br />
+                <p>instrukcja;</p>
+                <br />
+                <p>break;</p>
+                <br />
+                <p>case 'jaskiś string':</p>
+                <br />
+                <p>instrukcja;</p>
+                <br />
+                <p>break;</p>
+                <br />
+                <p>default:</p>
+                <br />
+                <p>instrukcja;</p>
+                <br />
+                <h3>!Jezeli usuniemy <mark>break;</mark> to wtedy tak jak w przypadku isntrukcji <mark>if</mark> - jezeli warunki są prawdziwe to kody poniżej się wykonają.</h3>
+
+            </div>,
+        img: "./imgJS/lesson5.jpg"
     }
 ]
 
