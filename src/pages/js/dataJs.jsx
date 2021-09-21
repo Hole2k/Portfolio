@@ -154,10 +154,16 @@ export const dataJs = [
                 <br />
                 <p>instrukcja;</p>
                 <br />
-                <h3>!Jezeli usuniemy <mark>break;</mark> to wtedy tak jak w przypadku isntrukcji <mark>if</mark> - jezeli warunki są prawdziwe to kody poniżej się wykonają.</h3>
+                <h3>!Jezeli usuniemy <mark>break;</mark> to wtedy tak jak w przypadku  <mark>if</mark> - jezeli warunki są prawdziwe to kody poniżej się wykonają.</h3>
 
             </div>,
         img: "./imgJS/lesson5.jpg"
+    },
+    {
+        id: "5",
+        title: "Petle",
+        desc: <div></div>,
+        img: "./imgJS/lesson6.jpg"
     }
 ]
 
