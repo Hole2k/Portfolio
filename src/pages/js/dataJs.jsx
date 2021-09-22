@@ -144,7 +144,7 @@ export const dataJs = [
                 <br />
                 <p>break;</p>
                 <br />
-                <p>case 'jaskiś string':</p>
+                <p>case 'jakiś string':</p>
                 <br />
                 <p>instrukcja;</p>
                 <br />
@@ -161,8 +161,52 @@ export const dataJs = [
     },
     {
         id: "5",
-        title: "Petle",
-        desc: <div></div>,
+        title: "Petle(while, do while, for)",
+        desc: <div>
+            <h1>while</h1>
+            <br />
+            <p>var i = 20;</p>
+            <br />
+            <p><mark>while(i >13)</mark> </p>
+            <br />
+            <p>document.write(i);</p>
+            <br />
+            <p>i--</p>
+            <br />
+
+            <h1>do while</h1>
+            <br />
+            <p>*Ta pętla wykona się co najmniej raz. Pętla zaczyna się od słowa <mark>do</mark>, przechodzi przez instrukcje i na samym końcu sprawdza warunek.</p>
+            <br />
+            <p><mark>do</mark> </p>
+            <br />
+            <p>i--;</p>
+            <br />
+            <p>document.write(i);</p>
+            <br />
+            <p><mark>while( i >= 10 )</mark></p>
+            <br />
+
+            <h1>for</h1>
+            <br />
+            <p><mark>for(i; i > 20; i++)</mark></p>
+            <br />
+            <p>document.write(i);</p>
+            <br />
+            <p>document.write('<br />');</p>
+            <br />
+
+            <h1>Zmiana tekstu między znacznikami HTML </h1>
+            <br />
+            <p>Do zmiennej przypisana jest funkcja, następnie pętla jest wywoływana tyle razy ile wynosi ilośc znacznika <mark>p</mark>. Jako instrukcja przypisana jest tablica oraz funkcja, która podmienia tekst na wpisany przez nas.</p>
+            <br />
+            <p>var paragrafy = document.getElementsByTagName("p");</p>
+            <br />
+            <p>for(i = 1; i ≤ paragrafy.length/2; i++)</p>
+            <br />
+            <p>paragrafy[i].innerHTML = 'inny tekst';</p>
+            <br />
+        </div>,
         img: "./imgJS/lesson6.jpg"
     }
 ]
