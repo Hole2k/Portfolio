@@ -208,6 +208,71 @@ export const dataJs = [
             <br />
         </div>,
         img: "./imgJS/lesson6.jpg"
+    },
+    {
+        id: "6",
+        title: "Funkcje",
+        desc: <div>
+            <p>Wywołanie funkcji może odbyć się w każdym miejscu w kodzie</p>
+            <br />
+            <p><mark>nazwaFunkcji();</mark></p>
+            <br />
+            <p>function nazwaFunkcji()</p>
+            <br />
+            <p>document.write('tekst z wnętrza funkcji')</p>
+            <br />
+            <p></p>
+
+
+            <h1>Funkcja anonimowa</h1>
+
+            <br />
+            <p>Funkcja anonimowa może być wywołana tylko po jej definicji:</p>
+            <br />
+            <p><mark>nazwaFunkcji = function()</mark></p>
+            <br />
+            <p>document.write('Tekst z wnętrza funkcji')</p>
+            <br />
+            <p><mark>nazwaFunkcji();</mark></p>
+            <br />
+
+
+            <h1>Funkcja z parametrem/parametrami</h1>
+            <br />
+            <p>Funkcja przyjmująca co najmniej jeden parametr, który później będzie wykorzystany.</p>
+            <br />
+
+            <p>
+                Tekst pojawi się ze odstępem: <br />
+                dw('Jakiś tekst', 'spacja')   <br /> <br />
+                Następny tekst pojawi się w nowej lini: <br />
+                dw('Jakiś tekst1', 'br')  <br /> <br />
+                Wyświetli się zwykły tekst: <br />
+                dw('Jakiś tekst2')
+
+            </p>
+
+            <br />
+            <p><mark>function dw(parametr1, parametr2)</mark></p>
+            <br />
+            <p>if(<mark>parametr2</mark> == 'br')</p>
+            <br />
+            <p>var zmienna = <mark>parametr1</mark> + '<br />';</p>
+            <br />
+            <p>else if (<mark>parametr2</mark> == 'spacja')</p>
+            <br />
+            <p>var zmienna = <mark>parametr1</mark> + ' ';</p>
+            <br />
+            <p>else</p>
+            <br />
+            <p>var zmienna = <mark>parametr1</mark></p>
+            <br />
+            <p>return document.write(zmienna); </p>
+
+
+
+        </div>,
+        img: "./imgJS/lesson7.jpg"
     }
 ]
 
