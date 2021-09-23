@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../porfolioList/PortfolioList";
 import "./portfolio.scss";
-import { featuredPortfolio, knowledgePortfolio, mobilePortfolio, designPortfolio, contentPortfolio } from "../../data"
+import { featuredPortfolio, knowledgePortfolio, mobilePortfolio, mknowlegePortfolio, aknowlegePortfolio } from "../../data"
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");
@@ -15,23 +15,25 @@ export default function Portfolio() {
 
         {
             id: "knowledge",
-            title: "Knowledge"
+            title: "Basic Knowledge"
+        },
+
+        {
+            id: "mknowlege",
+            title: "Mid knowledge "
+        },
+
+
+        {
+            id: "aknowlege",
+            title: "Advanced knowledge "
         },
 
         {
             id: "mobile",
             title: "Mobile App"
-        },
-
-        {
-            id: "design",
-            title: "Design"
-        },
-
-        {
-            id: "content",
-            title: "Content"
         }
+
     ];
 
     useEffect(() => {
@@ -46,19 +48,20 @@ export default function Portfolio() {
                 break;
 
 
+            case "mknowlege":
+                setData(mknowlegePortfolio)
+                break;
+
+
+            case "aknowlege":
+                setData(aknowlegePortfolio)
+                break;
+
+
             case "mobile":
                 setData(mobilePortfolio)
                 break;
 
-
-            case "design":
-                setData(designPortfolio)
-                break;
-
-
-            case "content":
-                setData(contentPortfolio)
-                break;
             default:
                 setData(featuredPortfolio)
 

@@ -42,6 +42,8 @@ export const featuredPortfolio = [
 ];
 
 
+
+
 export const knowledgePortfolio = [
     {
         id: 1,
@@ -88,51 +90,11 @@ export const knowledgePortfolio = [
 
     }
 ];
-export const mobilePortfolio = [
-    {
-        id: 1,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_960_720.jpg"
-
-    },
-
-    {
-        id: 2,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2017/04/25/05/44/basketball-2258650_960_720.jpg"
-
-    },
-
-    {
-        id: 3,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2015/05/15/14/49/basketball-768713_960_720.jpg"
-
-    },
-
-    {
-        id: 4,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2015/12/08/00/37/basketball-1081882_960_720.jpg"
-
-    },
-
-    {
-        id: 5,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2013/03/21/15/52/basketball-95607_960_720.jpg"
-
-    },
-    {
-        id: 6,
-        title: "Coming soon",
-        img :"https://cdn.pixabay.com/photo/2013/05/02/21/23/basketball-108622_960_720.jpg"
-
-    }
-];
 
 
-export const designPortfolio = [
+
+
+export const mknowlegePortfolio = [
     {
         id: 1,
         title: "Coming soon",
@@ -175,9 +137,7 @@ export const designPortfolio = [
     }
 ];
 
-
-
-export const contentPortfolio = [
+export const aknowlegePortfolio = [
     {
         id: 1,
         title: "Coming soon",
@@ -216,6 +176,50 @@ export const contentPortfolio = [
         id: 6,
         title: "Coming soon",
         img :"https://cdn.pixabay.com/photo/2019/12/04/05/17/band-4671748_960_720.jpg"
+
+    }
+];
+
+
+export const mobilePortfolio = [
+    {
+        id: 1,
+        title: "Coming soon",
+        img :"https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_960_720.jpg"
+
+    },
+
+    {
+        id: 2,
+        title: "Coming soon",
+        img :"https://cdn.pixabay.com/photo/2017/04/25/05/44/basketball-2258650_960_720.jpg"
+
+    },
+
+    {
+        id: 3,
+        title: "Coming soon",
+        img :"https://cdn.pixabay.com/photo/2015/05/15/14/49/basketball-768713_960_720.jpg"
+
+    },
+
+    {
+        id: 4,
+        title: "Coming soon",
+        img :"https://cdn.pixabay.com/photo/2015/12/08/00/37/basketball-1081882_960_720.jpg"
+
+    },
+
+    {
+        id: 5,
+        title: "Coming soon",
+        img :"https://cdn.pixabay.com/photo/2013/03/21/15/52/basketball-95607_960_720.jpg"
+
+    },
+    {
+        id: 6,
+        title: "Coming soon",
+        img :"https://cdn.pixabay.com/photo/2013/05/02/21/23/basketball-108622_960_720.jpg"
 
     }
 ];
