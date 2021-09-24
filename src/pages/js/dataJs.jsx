@@ -273,6 +273,88 @@ export const dataJs = [
 
         </div>,
         img: "./imgJS/lesson7.jpg"
+    },
+    {
+        id: "7",
+        title: "Tablice",
+        desc: <div>
+            <h1>Tablica jednowymiarowa</h1>
+            <br />
+            <p>Każdy element w tablicy posiada swój własny klucz(ID), który jest numerowany od zera</p>
+            <br />
+            <p>Tablice można utworzyć na <mark>2</mark> sposoby:</p>
+            <br />
+            <p><mark>var tablica = new Array('Pomidor ', 'Kalafior ', 'Ogórek ' );</mark></p>
+            <br />
+            <p>LUB</p>
+            <br />
+            <p><mark>var tablica1 = ['Pomidor ', 'Kalafior ', 'Ogórek '];</mark></p>
+            <br />
+            <p>Elementy można także wpisać w taki sposób:</p>
+            <br />
+            <p><mark>tablica[0] = 'Pierwszy element '<br /></mark>
+                <mark> tablica[1] = 'Drugi element '<br /></mark>
+                <mark>  tablica[2] = 'Trzeci element '</mark></p>
+            <br />
+            <p>Teraz można wyświetlić całą tablice</p>
+            <br />
+            <p><mark>document.write(tablica)</mark></p>
+            <br />
+            <p>Lub pojedynczy element</p>
+            <br />
+            <p><mark>document.write(tablica[1]);</mark></p>
+            <br />
+            <p>Zamiast posługiwać się standardowym nuemrycznym ID można zapisać je literami</p>
+            <br />
+            <p><mark>tablica['a'] = 'Pierwszy element '  </mark>           <br />
+                <mark> tablica['b'] = 'Drugi element ' </mark>           <br />
+                <mark> tablica['c'] = 'Trzeci element '</mark></p>
+            <br />
+            <p><mark>document.write(tablica['a']);</mark></p>
+            <br />
+            <p>Zwrócenie długośsci tablicy </p>
+            <br />
+            <p><mark>document.write(tablica1.length);</mark></p>
+            <br />
+            <p>Wyświetlenie wszystkich elementów tablicy pdbywa się przy pomocy pętli</p>
+            <br />
+            <p><mark>for(var i=0; i ≤ tablica1.length -1; i++)</mark>
+                <br />
+                <mark> document.write(tablica1[i]);</mark>
+            </p>
+            <br />
+
+
+
+            <h1>Tablica wielowymiarowa</h1>
+            <br />
+            <p>Tablica nr. 1</p>
+            <br />
+            <p><mark>var produkty=[];<br />
+                produkty['warzywa'] =['Pomidor ', 'Sałata ', 'Ogórek '];<br />
+                produkty['owoce'] = ['Banan ', 'Pomarańcza ', 'Arbuz '];</mark><br />
+            </p>
+            <br />
+            <p>Tablica nr. 2</p>
+            <br />
+            <p><mark>var pracownicy = []<br />
+                pracownicy = ['Gienek ', 'Andrzej ', 'Rafał ']</mark></p>
+            <br />
+            <p><mark>var tablica =[]</mark><br />
+                <mark>tablica['produkty']= produkty -></mark> produkty ze zmiennej produkty<br />
+                <mark>tablica['pracownicy']= pracownicy -></mark> pracownicy ze zmiennej pracownicy</p>
+            <br />
+            <p>Wyswietlenie tablicy ,,produkty", z owocami, a konkretnie drugiego owoc  </p>
+            <br />
+            <p><mark>document.write(tablica['produkty']['owoce'][2]);</mark></p>
+            <br />
+            <p>Wyswietlenie tablicy ,,pracownicy", z owocami, a konkretnie pierwszego pracownika  </p>
+            <br />
+            <p><mark>document.write(tablica['pracownicy'][1])</mark></p>
+            <br />
+            <p></p>
+        </div>,
+        img: "./imgJS/lesson8"
     }
 ]
 
