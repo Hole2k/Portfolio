@@ -352,9 +352,42 @@ export const dataJs = [
             <br />
             <p><mark>document.write(tablica['pracownicy'][1])</mark></p>
             <br />
-            <p></p>
+            <h1>Operacje na tablicach</h1>
+            <br />
+            <h2>Łączenie elementów znakiem podanym w nawiasie</h2>
+            <br />
+            <p>document.write(tablica['produkty'['owoce']<mark>.join(', ')</mark>])</p>
+            <br />
+            <h2>Sortowanie(w tym wypadku alfabetycznie)</h2>
+            <br />
+            <p>document.write(tablica['produkty'['owoce']<mark>.sort</mark>])</p>
+            <br />
+            <h2>Łączenie tablic</h2>
+            <br />
+            <p>var produkty = produkty['warzywa']<mark>.concat</mark>(produkty['owoce']);</p>
+            <br />
+            <h2>Odzielenie elementów tablicy (od-do)</h2>
+            <br />
+            <p>var produkty - produkty<mark>.slice(0,3);</mark></p>
+            <br />
+            <h2>Push(dodanie elementu na początku)</h2>
+            <br />
+            <p>var noweOwoce = owoce<mark>.pushM</mark>('owoc1', 'owoc2');</p>
+            <br />
+            <h2>Pop(usuwanie elementu na końcu tablicy)</h2>
+            <br />
+            <p>var usuniecieOstatniegoOwoca = owoce<mark>.pop()</mark>;</p>
+            <br />
+            <h2>Unshift(dodanie elementu na końcu)</h2>
+            <br />
+            <p>var dodanieOstatniegoOwoca = owoce<mark>.unshift('kiwi','cytryna')</mark></p>
+            <br />
+            <h2>Shift(usunięcie pierwszego elementu)</h2>
+            <br />
+            <p>var usunieciePierwszegoOwoca - owoce<mark>.shift()</mark>;</p>
+
         </div>,
-        img: "./imgJS/lesson8"
+        img: "./imgJS/lesson8.jpg"
     }
 ]
 
