@@ -388,6 +388,113 @@ export const dataJs = [
 
         </div>,
         img: "./imgJS/lesson8.jpg"
+    },
+    {
+        id: "8",
+        title: "Ciągi znaków",
+        desc: <div>
+            <h2>var string = 'W szczebrzeszynie chrząszcz brzmi w trzcinie';
+            </h2>           <br />
+            <h2>Sprawdzenie ilości znaków(wraz ze spacjami)</h2>
+            <p>document.write(<mark>string.length</mark>);</p>
+            <br />
+            <br />
+
+
+            <h2>Sprawdzenie co kryje się w stringu w danym miejscu</h2>
+            <p>document.write(<mark>string[2]</mark>);</p>
+            <br />
+            <br />
+
+            <h2>Wyświetlanie paru liter(od,do)</h2>
+            <p>document.write(<mark>string.substring(0,200)</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Wyświetlanie liter od konkretnego miejsca do ilości znaków </h2>
+            <p>document.write(<mark>string.substr(10, 10)</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Wycinanie kawałków tekstu</h2>
+            <p>document.write(<mark>string.slice(2, -20)</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>//Dzielenie string'a na poszczególne fragmenty [konkretne słowo]
+            </h2>
+            <p>document.write(<mark>string.split(' ')[0]</mark>);
+            </p>
+            <br />
+            <p>//Przed spacją jest jeden element, za spacją drugi itd.
+            </p>
+            <br />
+            <br />
+
+            <h2>Funkcja zastępowania (jeden element na inny)</h2>
+            <p>document.write(<mark>string.replace('chrząszcz', 'żuk')</mark>);</p>
+            <br />
+            <br />
+
+            <h2>Funkcja która zastępuje wszystkie wpisane słowa/litery na inne</h2>
+            <p>document.write(<mark>string.replace(/rz/g,'RZ')</mark>);</p>
+            <br />
+            <br />
+
+            <h2>Zmiana wielkości liter</h2>
+            <p>document.write(<mark>string.toUpperCase()</mark>);
+            </p>
+            <p>document.write(<mark>string.toLowerCase()</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>funkcje można łączyć</h2>
+            <p>document.write(<mark>string.substring(0,5).toUpperCase()</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Zmiana znaków specjalnych na inne</h2>
+            <p>document.write(<mark>escape(string)</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Odwrotnośc escape</h2>
+            <p>document.write(<mark>unescape(string)</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Wyswietlenie paska adresu </h2>
+            <p>document.write(<mark>document.URL</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Sprawdznie pozycji elementu w tekscie (czy istnieje).Jeżeli danego znaku lub słowa nie ma, zostanie zwrócone ,,-1"</h2>
+            <p>document.write(<mark>string.indexOf('W')</mark>);
+            </p>
+            <br />
+            <br />
+
+            <h2>Sprawdzenie czy słowo istnieje</h2>
+            <p>if(<mark>string.indexOf('asd')</mark> != -1)
+            </p>
+            <p>	alert('Słowo istnieje');
+            </p>
+            <p>else
+            </p>
+            <p>	alert('Słowo nie istnieje');
+            </p>
+            <br />
+
+        </div>,
+        img: "./imgJS/lesson9.jpg"
     }
 ]
 
