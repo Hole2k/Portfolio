@@ -495,6 +495,13 @@ export const dataJs = [
 
         </div>,
         img: "./imgJS/lesson9.jpg"
+    },
+    {
+        id: "9",
+        title: "Wyrazenia regularne",
+        desc: <div></div>,
+        img: "./imgJs/lesson10.jpg"
+
     }
 ]
 
